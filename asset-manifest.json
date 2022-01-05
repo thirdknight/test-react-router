@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/thirdknight/test-react-router/static/css/main.846e89b6.css",
+    "main.js": "/thirdknight/test-react-router/static/js/main.95781edf.js",
+    "index.html": "/thirdknight/test-react-router/index.html",
+    "main.846e89b6.css.map": "/thirdknight/test-react-router/static/css/main.846e89b6.css.map",
+    "main.95781edf.js.map": "/thirdknight/test-react-router/static/js/main.95781edf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.846e89b6.css",
+    "static/js/main.95781edf.js"
+  ]
+}
