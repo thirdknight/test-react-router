@@ -4,7 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 import App from './App';
+
+//views
 import Blog from './routes/Blog';
+import Post from './routes/Post';
 import Contact from './routes/Contact';
 import Home from './routes/Home';
 import Error from './routes/Error'
@@ -15,6 +18,7 @@ ReactDOM.render(
       <Route path='/' element={<App />}>
         <Route index element={<Home />}/>
         <Route path='blog' element={<Blog />} />
+        <Route path='blog/:id' element={<Post />} />
         <Route path='contact' element={<Contact />} />
         <Route path='*' element={<Error />} />
       </Route>
